@@ -6,9 +6,6 @@
 
 DEVICE_PATH := device/xiaomi/pearl
 
-# Inherit from mt6895-common
-include device/xiaomi/mt6895-common/BoardConfigCommon.mk
-
 # Display
 TARGET_SCREEN_DENSITY := 420
 
@@ -29,3 +26,6 @@ VENDOR_SECURITY_PATCH := 2025-01-01
 
 # Inherit the proprietary files
 include vendor/xiaomi/pearl/BoardConfigVendor.mk
+
+# Inherit from mt6895-common
+include device/xiaomi/mt6895-common/BoardConfigCommon.mk
