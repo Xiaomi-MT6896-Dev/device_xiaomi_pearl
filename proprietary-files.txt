@@ -633,8 +633,8 @@ vendor/etc/powerscntbl.xml
 
 # Sensors
 vendor/etc/elliptic_sensor.xml
-vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
+vendor/lib64/hw/sensors.mius.proximity.so
 vendor/lib64/libnotifyaudiohal.so
 
 # Thermal (Xiaomi)
