@@ -27,8 +27,5 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2025-01-01
 
-# Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
-
 # Inherit the proprietary files
 include vendor/xiaomi/pearl/BoardConfigVendor.mk
