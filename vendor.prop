@@ -28,3 +28,12 @@ ro.vendor.mtk_camera_app_version=3
 vendor.camera.mdp.cz.enable=1
 vendor.camera.mdp.dre.enable=1
 vendor.mtk.camera.app.fd.video=1
+
+# Displayfeature
+persist.vendor.dc_backlight.enable=false
+ro.vendor.cabc.enable=true
+ro.vendor.display.framework_thermal_dimming=true
+ro.vendor.histogram.enable=0
+ro.vendor.sre.enable=false
+ro.vendor.xiaomi.bl.poll=true
+vendor.displayfeature.entry.enable=true
