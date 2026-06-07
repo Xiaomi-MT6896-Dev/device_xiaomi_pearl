@@ -32,11 +32,12 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksResPearl \
+    FrameworksResOverlayPearl \
     NfcOverlayPearl \
     SettingsProviderOverlayPearl \
-    SystemUIResPearl \
-    WifiOverlayPearl
+    SettingsResOverlayPearl \
+    SystemUIOverlayPearl \
+    WifiResOverlayPearl
 
 # Rootdir
 PRODUCT_PACKAGES += \
