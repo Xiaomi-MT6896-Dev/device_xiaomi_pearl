@@ -611,13 +611,6 @@ vendor/etc/miLutInfo.txt
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 
-# FM Radio
-vendor/etc/init/init.fmradio_drv.rc
-
-# FM Radio (firmware)
-vendor/firmware/mt6635_fm_v1_coeff.bin
-vendor/firmware/mt6635_fm_v1_patch.bin
-
 # GNSS
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CBN.xml
 
